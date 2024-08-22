@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/Assets/glifo.png" id="glifo">
+            <nav>
+                <a href="index.html"><img src="/Assets/hogar.png"> Inicio</a>
+                <a href="visita.html"><img src="/Assets/visita.png"> Visita</a>
+                <a href="informes.html"><img src="/Assets/informes.png"> Informes</a>
+            </nav>
+        </div>
+    </header><br>
+
+    <div class="intro">
+        <h1>Más Información sobre Cuautitlán, Estado de México</h1>
+        <p>En esta sección, puedes solicitar más información sobre los lugares turísticos, actividades, y eventos en
+            Cuautitlán, Estado de México. Completa el formulario a continuación para recibir detalles directamente en tu
+            correo electrónico.</p>
+    </div>
+
+    <div class="container mt-5 mb-5 border p-5">
+        <h2 class="text-center mb-4">Formulario de Contacto</h2>
+        <form>
+            <div class="form-group mb-2">
+                <label for="name" class="label">Nombre Completo</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+            </div>
+
+            <div class="form-group mb-2">
+                <label for="phone" class="label">Número de Contacto</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Ingrese su número de contacto" required>
+            </div>
+
+            <div class="form-group mb-2">
+                <label for="email" class="label">Correo de Contacto</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico"
+                    required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="message" class="label">Mensaje (¿Qué dudas tiene?)</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Escriba su mensaje aquí"
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

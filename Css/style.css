@@ -1,0 +1,149 @@
+body, h1, h2, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F6F5F2;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004d40;
+    padding: 10px 20px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+
+header img#glifo {
+    height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+header nav a img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    border: #000 solid 1px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #004d40;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+section p a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+section p a:hover {
+    text-decoration: underline;
+}
+
+.current img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: #000 solid 1px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.facts ul li {
+    margin-bottom: 10px;
+}
+
+.facts ul li strong {
+    color: #00796b;
+}
+
+.text-center{
+    color:  #004d40;
+}
+
+.label{
+    color: #00796b;
+}
+
+.btn{
+    background-color:  #004d40;
+    border:  #004d40;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color:   #00796b;
+    border:   #00796b;
+}
+
+.container{
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
